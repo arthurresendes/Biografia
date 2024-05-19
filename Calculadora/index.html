@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="jogos.ico" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+         <input type="text" class="display" disabled>
+         <div class="buttons">
+           <button onclick="clearDisplay()">C</button>
+           <button onclick="numeroDisplay('7')">7</button>
+           <button onclick="numeroDisplay('8')">8</button>
+           <button onclick="numeroDisplay('9')">9</button>
+           <button onclick="numeroDisplay('/')">/</button>
+           <button onclick="numeroDisplay('4')">4</button>
+           <button onclick="numeroDisplay('5')">5</button>
+           <button onclick="numeroDisplay('6')">6</button>
+           <button onclick="numeroDisplay('*')">*</button>
+           <button onclick="numeroDisplay('1')">1</button>
+           <button onclick="numeroDisplay('2')">2</button>
+           <button onclick="numeroDisplay('3')">3</button>
+           <button onclick="numeroDisplay('-')">-</button>
+           <button onclick="numeroDisplay('+')">+</button>
+           <button onclick="numeroDisplay('0')">0</button>
+           <button onclick="calculate()">=</button>
+           <button onclick="numeroDisplay('%')">%</button>
+         </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
