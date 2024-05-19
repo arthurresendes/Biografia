@@ -9,7 +9,7 @@
 
     nav{
         background-color: rgba(243, 131, 56, 0.829) ;
-        padding: 20px;
+        padding: 25px 15px;
         text-align: center;
     }
     
@@ -18,7 +18,7 @@
      text-decoration: none;
      border-radius: 5px;
      font-weight: bolder;
-     padding: 25px 15px;
+     padding: 10px;
     }
     
     nav a:hover{
