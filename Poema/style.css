@@ -1,16 +1,75 @@
-img{border-radius: 50%;
-width: 300px;
-height: 300px;}
+@charset "UTF-8";
+
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ body{background-image: linear-gradient(90deg,rgb(196, 153, 153),rgba(116, 53, 53, 0.678));}
+ header{
+
+    padding: 25px;
+    background-image: linear-gradient(to bottom, rgb(0, 255, 42) , green );
+ }
+
+ header h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.507);
+    padding: 15px;
+ }
+
+ header h2{
+    padding: 15px;
+   font-size: 2em;
+   font-weight: bold;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+ }
+
+main img{
+width: 100%;
+height: 500px;}
+
+
 main{text-align: center;
     background-color: white;
     border-radius:25px;
     box-shadow: 5px 5px 15px rgb(63, 10, 10);
-    width: 900px;
+    min-width: 300px;
+    max-width: 1000px;
     padding: 20px;
     margin:0 auto;}
-ul {
+
+main ul {
     list-style: none;
 }
-h1{font: italic bold 3em "Arial,san serif";}
-p{text-align: justify;}
-body{background-image: linear-gradient(90deg,rgb(196, 153, 153),rgba(116, 53, 53, 0.808));}
+main h1{
+    font: italic bolder 3em 'Bebas Neue', cursive;;
+    padding: 25px;
+    background-image: linear-gradient(90deg, rgba(0, 128, 0, 0.466), transparent);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.308);
+    border-radius: 10px 0px;
+     }
+main h2{
+    font: italic bold 2em Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: green;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.308);
+}
+
+main ul li{text-align: center;
+  line-height: 45px;
+  font-size: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 15px;}
+
+  main p{
+    line-height: 45px;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+  }
