@@ -1,0 +1,16 @@
+img{border-radius: 50%;
+width: 300px;
+height: 300px;}
+main{text-align: center;
+    background-color: white;
+    border-radius:25px;
+    box-shadow: 5px 5px 15px rgb(63, 10, 10);
+    width: 900px;
+    padding: 20px;
+    margin:0 auto;}
+ul {
+    list-style: none;
+}
+h1{font: italic bold 3em "Arial,san serif";}
+p{text-align: justify;}
+body{background-image: linear-gradient(90deg,rgb(196, 153, 153),rgba(116, 53, 53, 0.808));}
