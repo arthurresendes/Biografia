@@ -90,9 +90,15 @@ section#img01{
 }
 
 section#img02{
-  background-image: url(IMG-20220829-WA0014.jpg);
+  background-image: url(Screenshot_20240523-110639~2.png);
   background-position: center center;
   background-size:cover;
+}
+
+section#img03{
+  background-image: url(Screenshot_20240523-110649~2.png);
+  background-size: cover;
+  background-position: center center;
 }
 
  p.msg{
