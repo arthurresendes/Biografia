@@ -135,3 +135,8 @@ section.titulo h2 {
   font-size: 2em;
   padding: 10px;
 }
+
+section.titulo p{
+  font-style: italic;
+  font-size: 1.5em;
+}
