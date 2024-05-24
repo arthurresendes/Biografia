@@ -135,33 +135,3 @@ section.titulo h2{
   padding: 10px;
 }
 
-footer{
-  background-color: rgba(125, 134, 255, 0.589);
-  padding: 20px;
-  border: 5px solid rgba(0, 0, 0, 0.178);
-}
-
-footer  a{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  color: rgb(19, 0, 105);
-  text-decoration: none;
-  font-size: 1em;
-  
-}
-
-footer i{
-  color: rgb(0, 4, 255);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-}
-
-footer a:hover{
-  text-decoration: underline;
-  color: rgb(71, 71, 214);
-}
-
