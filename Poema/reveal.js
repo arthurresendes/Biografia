@@ -1,11 +1,18 @@
-const button = document.querySelector("button")
-const modal = document.querySelector("dialog")
-const buttonClose = document.querySelector("dialog button")
+document.addEventListener("DOMContentLoaded", function() {
+    const openButtons = document.querySelectorAll(".open-dialog");
+    const closeButtons = document.querySelectorAll(".close-dialog");
 
-button.onclick =function () {
-    modal.show()
-}
+    openButtons.forEach((button, index) => {
+        button.onclick = function() {
+            const modal = document.querySelectorAll("dialog")[index];
+            modal.show();
+        };
+    });
 
-buttonClose.onclick = function () {
-    modal.close()
-}
+    closeButtons.forEach((button, index) => {
+        button.onclick = function() {
+            const modal = document.querySelectorAll("dialog")[index];
+            modal.close();
+        };
+    });
+});
