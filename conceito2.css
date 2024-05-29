@@ -1,111 +1,136 @@
 @charset "UTF-8";
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{background-image:linear-gradient(90deg,rgba(225, 236, 227, 0.651)   ,rgba(217, 226, 223, 0.671)   ) ;}
-body{     text-align: justify;
+body {
+    background-image: linear-gradient(90deg, rgba(225, 236, 227, 0.651), rgba(217, 226, 223, 0.671));
 }
 
-header{
-  background-image: linear-gradient(to bottom, #0a9694a4,rgba(0, 4, 255, 0.651) );
-  min-height: 130px;
-  text-align: center;
-  padding-top:40px ;
+body {
+    text-align: justify;
 }
 
-header h1{
+header {
+    background-image: linear-gradient(to bottom, #0a9694a4, rgba(0, 4, 255, 0.651));
+    min-height: 130px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
     font-size: 3em;
-    font-weight: bold;
-    font-style: italic;
-    font-family:'Bebas Neue', cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185);
 }
 
-header p{
+header p {
     padding: 15px 0px;
     color: rgb(0, 0, 0);
     font-size: 1.2em;
     max-width: 500px;
     margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
-    font-weight: bolder;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185);
 }
 
 nav {
-   background-color: rgba(0, 4, 255, 0.651);
-   padding: 25px 15px;
+    background-color: rgba(0, 4, 255, 0.651);
+    padding: 25px 15px;
 }
 
-nav a{
+nav a {
     color: white;
     padding: 10px;
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     transition-duration: .5s;
-   background-color: aqua;
-   color: black;
-   border-radius: 5px;
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
 }
 
-main h1{text-align: center;
-color: rgb(53, 122, 226);
-font: italic bold 3em 'Bebas Neue', cursive;
-padding: 20px;}
+main h1 {
+    text-align: center;
+    color: rgb(53, 122, 226);
+    font: italic bold 3em 'Bebas Neue', cursive;
+    padding: 20px;
+}
 
 
-main h2{color: #0a9693; font: bold 2em 'Times New Roman', Times, serif;
-padding: 15px;
-text-indent: 4px;}
+main h2 {
+    color: #0a9693;
+    font: bold 2em 'Times New Roman', Times, serif;
+    padding: 15px;
+    text-indent: 4px;
+}
 
 
-main h3{color:rgb(98, 92, 182); font: bold 1.7em 'Times New Roman', Times, serif;
-padding: 15px;
-text-indent: 5px;}
+main h3 {
+    color: rgb(98, 92, 182);
+    font: bold 1.7em 'Times New Roman', Times, serif;
+    padding: 15px;
+    text-indent: 5px;
+}
 
 
-main h4{color: #667a14; font: bold 1.5em 'Times New Roman', Times, serif;
-padding: 15px;
-text-indent: 6px;}
+main h4 {
+    color: #667a14;
+    font: bold 1.5em 'Times New Roman', Times, serif;
+    padding: 15px;
+    text-indent: 6px;
+}
 
 
-main p{color: black; font-size: 17px;
-line-height: 1.8em;
-padding: 15px;
-text-indent: 8px;}
+main p {
+    color: black;
+    font-size: 17px;
+    line-height: 1.8em;
+    padding: 15px;
+    text-indent: 8px;
+}
 
 
-main ul{color: black;
-list-style-type: none;
-text-indent: 8px;
-padding: 10px;
-line-height: 1.5em}
-
-
-main ol{color: black;
+main ul {
+    color: black;
     list-style-type: none;
     text-indent: 8px;
     padding: 10px;
-    line-height: 1.6em}
+    line-height: 1.5em
+}
 
 
-main #exemplo{color: rgb(0, 4, 255);
-font: italic bolder;
-background-color: rgb(255, 224, 47);
-background-image: linear-gradient(90deg,red,white);
-text-indent: 8px;
-padding: 10px;}
+main ol {
+    color: black;
+    list-style-type: none;
+    text-indent: 8px;
+    padding: 10px;
+    line-height: 1.6em
+}
 
- 
 
-main .exemplo{background-image: linear-gradient(90deg,rgb(158, 240, 158),white);
-color: rgb(30, 12, 110);
-text-indent: 8px;
-padding: 10px;}
+main #exemplo {
+    color: rgb(0, 4, 255);
+    font: italic bolder;
+    background-color: rgb(255, 224, 47);
+    background-image: linear-gradient(90deg, red, white);
+    text-indent: 8px;
+    padding: 10px;
+}
 
-main ul li p{
+
+
+main .exemplo {
+    background-image: linear-gradient(90deg, rgb(158, 240, 158), white);
+    color: rgb(30, 12, 110);
+    text-indent: 8px;
+    padding: 10px;
+}
+
+main ul li p {
     text-indent: 8px;
     padding: 15px;
     line-height: 1.4em;
@@ -113,18 +138,25 @@ main ul li p{
 
 
 
-main a{text-decoration: none;}
+main a {
+    text-decoration: none;
+}
 
-main a:visited{color: rgb(0, 60, 255);}
+main a:visited {
+    color: rgb(0, 60, 255);
+}
 
-main a:hover{text-decoration: underline;}
+main a:hover {
+    text-decoration: underline;
+}
 
-main .especial:hover{color: rgb(255, 255, 255);
-background-color: rgb(0, 0, 0);
+main .especial:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 
-main{
+main {
     background-color: white;
     padding: 20px;
     border-radius: 0px 10px;
@@ -133,53 +165,53 @@ main{
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
     margin-bottom: 30px;
-  
+
 }
 
-ul.collum{
+ul.collum {
     columns: 4;
     text-align: center;
 }
 
-h3.center{
+h3.center {
     text-align: center;
 }
 
-.tags{
- text-align: center;
- padding: 19px 4%;
+.tags {
+    text-align: center;
+    padding: 19px 4%;
 }
 
-aside{
+aside {
     background-color: rgba(203, 234, 252, 0.644);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
-aside ul{
+aside ul {
     list-style-position: inside;
     columns: 2;
     padding: 10px;
     column-gap: 40px;
 }
 
-aside h2{
-    background-image: linear-gradient(90deg, rgba(0, 38, 255, 0.486),transparent);
+aside h2 {
+    background-image: linear-gradient(90deg, rgba(0, 38, 255, 0.486), transparent);
     color: rgba(0, 0, 0, 0.719);
     padding: 5px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
     font-weight: bolder;
     font-style: italic;
-    font-family:'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
-aside h3{
+aside h3 {
     text-align: center;
 }
 
-footer{
+footer {
     background-color: #0a9693;
 }
 
@@ -188,12 +220,12 @@ footer p {
     color: rgb(255, 255, 255);
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     color: black;
     transition: .5s;
     font-size: 18px;

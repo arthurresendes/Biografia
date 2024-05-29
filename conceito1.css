@@ -1,74 +1,78 @@
 @charset "UTF-8";
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{background-image:linear-gradient(90deg,rgb(248, 244, 242)  ,rgb(241, 228, 224) );
-text-align: justify;}
 
-
-
-
-
-
-video{border-radius: 20%;
-display: flex;
-margin: auto;
-padding: 10px 0px;}
-
-audio{
-display: flex;
-margin: auto;
-padding: 10px 0px ;
+body {
+    background-image: linear-gradient(90deg, rgb(248, 244, 242), rgb(241, 228, 224));
+    text-align: justify;
 }
 
-.center{ 
-background-color: rgba(255, 0, 0, 0.637);
- margin: 0px -20px 30px -20px;
-padding: 20px;
-position: relative;
-padding-bottom: 59%;}
+video {
+    border-radius: 20%;
+    display: flex;
+    margin: auto;
+    padding: 10px 0px;
+}
 
-div.center > iframe{
- position: absolute;
- top: 5% ;
- left: 5% ;
- width: 90% ;
- height: 90% ;
+audio {
+    display: flex;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.center {
+    background-color: rgba(255, 0, 0, 0.637);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+
+div.center>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 
-.titulo{
+.titulo {
     text-align: center;
     color: #ff0800;
     font-weight: 200px;
 }
 
 ul li {
-    list-style-type: none 
+    list-style-type: none
 }
 
 main {
-   
+
     background-color: white;
     border-style: solid;
-border-radius: 0px 25px;
-box-shadow: 5px 5px 15px; color: #88521542;
-padding: 30px;
-margin: auto;
-min-width: 300px;
-max-width: 1000px;
-margin-bottom: 30px;
+    border-radius: 0px 25px;
+    box-shadow: 5px 5px 15px;
+    color: #88521542;
+    padding: 30px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 30px;
 }
 
-main h1{
-    text-align: center; 
+main h1 {
+    text-align: center;
     color: #F20505;
-    text-shadow: 1px 1px 0px; color:#af2020 ;
+    text-shadow: 1px 1px 0px;
+    color: #af2020;
     font: italic bold 3em 'Bebas Neue', cursive;
 }
 
-main h2{
+main h2 {
     padding: 15px;
     text-indent: 2px;
     color: #ff0800;
@@ -76,139 +80,142 @@ main h2{
     font-weight: 2em;
 }
 
-main h3{
-    color: #dd4a1efb;font: bold 1.7em 'Times New Roman', Times, serif;
+main h3 {
+    color: #dd4a1efb;
+    font: bold 1.7em 'Times New Roman', Times, serif;
     text-indent: 9px;
     padding: 15px;
 }
 
-main h4{
-    font-family: 'Times New Roman', Times, serif; font-size: 1.4em;
+main h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
     text-indent: 12px;
     padding: 15px;
 }
 
-main p{
-    color: black; font-size: 17px;
+main p {
+    color: black;
+    font-size: 17px;
     padding: 8px;
     line-height: 1.8em;
     text-indent: 1.1em;
 }
 
-main ol{
-    color: black; font-size: 17px;
+main ol {
+    color: black;
+    font-size: 17px;
     padding: 10px;
     line-height: 1.5em;
     list-style-type: none;
     text-indent: 1.2em;
 }
 
-main ul{
-    color: black; font-size: 17px;
+main ul {
+    color: black;
+    font-size: 17px;
     padding: 10px;
     line-height: 1.5em;
     text-indent: 1.2em;
 }
 
- a.none{
+a.none {
     text-decoration: none;
-    background-image: linear-gradient(90deg, rgba(235, 64, 64, 0.637),transparent);
+    background-image: linear-gradient(90deg, rgba(235, 64, 64, 0.637), transparent);
 }
-header{
+
+header {
     width: 100%;
-    background-image: linear-gradient(to bottom,rgba(248, 153, 64, 0.74), rgba(241, 66, 66, 0.829) );
+    background-image: linear-gradient(to bottom, rgba(248, 153, 64, 0.74), rgba(241, 66, 66, 0.829));
     min-height: 130px;
     text-align: center;
-    padding-top:40px ;
+    padding-top: 40px;
 }
-header h1{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2.8em;
-    font-weight: bold;
-    font-style: italic;
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.685);
     padding: 10px 0px;
     color: #F20505;
-    text-shadow: 1px 1px 0px; color:#6e0b0b ;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.082);
+    color: #6e0b0b;
 }
 
-header p{
+header p {
     text-align: center;
-    font-family: 'Bebas Neue', cursive;;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
     font-size: 1.2em;
     font-weight: bold;
-    font-style: italic;
-    max-width: 500px;
+    max-width:500px;
     margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185);
 }
 
-nav{
-    background-color: rgba(241, 66, 66, 0.829) ;
+nav {
+    background-color: rgba(241, 66, 66, 0.829);
     padding: 25px 15px;
 }
 
-nav a{
- color: black;
- text-decoration: none;
- border-radius: 5px;
- font-weight: bold;
- padding: 10px;
+nav a {
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
 }
 
-nav a:hover{
-   transition-duration: .5s;
-   color: white;
-   background-color: #6e2b2b9c;
+nav a:hover {
+    transition-duration: .5s;
+    color: white;
+    background-color: #6e2b2b9c;
 }
 
-aside{
+aside {
     background-color: rgba(252, 203, 203, 0.644);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
-aside ul{
+aside ul {
     list-style-position: inside;
     columns: 2;
     padding: 20px;
     column-gap: 40px;
 }
 
-aside h2{
-    background-image: linear-gradient(90deg, rgba(255, 60, 0, 0.486),transparent);
+aside h2 {
+    background-image: linear-gradient(90deg, rgba(255, 60, 0, 0.486), transparent);
     color: white;
     padding: 5px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
 }
 
-aside h3{
+aside h3 {
     text-align: center;
 }
 
-footer{
+footer {
     background-color: rgb(255, 215, 140);
 }
 
-footer p{
+footer p {
     text-align: center;
     margin: auto;
     color: rgb(255, 0, 0);
 }
 
-footer p a{
+footer p a {
     color: black;
     text-decoration: none;
 }
 
-footer p a:hover{
+footer p a:hover {
     text-decoration: underline;
     color: blue;
     transition: .2s;
     font-size: 18px;
 }
-
-
-

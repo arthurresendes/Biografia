@@ -1,53 +1,60 @@
 @charset "UTF-8";
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{background-image: linear-gradient(90deg,rgba(248, 64, 64, 0.137),rgba(218, 80, 195, 0.082));}
+
+body {
+    background-image: linear-gradient(90deg, rgba(248, 64, 64, 0.137), rgba(218, 80, 195, 0.082));
+}
 
 
-main{background-color: white;
+main {
+    background-color: white;
     min-width: 300px;
     max-width: 1000px;
-padding: 20px;
-border-radius: 0px 25px;
-margin: auto;
-box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.199);}
+    padding: 20px;
+    border-radius: 0px 25px;
+    margin: auto;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.199);
+}
 
-header{
+header {
     background-image: linear-gradient(to bottom, rgb(236, 191, 198), rgb(192, 100, 115));
     padding-top: 40px;
 }
 
-header h1{
+header h1 {
     text-align: center;
     font-size: 3em;
-    font-family:'Bebas Neue', cursive;
-    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
     color: rgb(128, 0, 60);
 }
 
-header p{
+header p {
     padding: 15px 0px;
     text-align: center;
-    font-size: 1.9em;
+    font-size: 1.3em;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
 
 }
-nav{
-   background-color:  rgb(192, 100, 115);
-   padding: 25px 15px;
+
+nav {
+    background-color: rgb(192, 100, 115);
+    padding: 25px 15px;
 }
-nav a{
+
+nav a {
     padding: 10px;
     text-decoration: none;
     color: white;
     font: normal bold 1.2em normal;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: pink;
     color: black;
     border-radius: 5px;
@@ -55,65 +62,81 @@ nav a:hover{
 }
 
 
-main h1{color: rgb(212, 0, 255);
+main h1 {
+    color: rgb(212, 0, 255);
     text-align: center;
-    text-shadow: 1px 1px 0px; color: rgb(209, 86, 178);
+    text-shadow: 1px 1px 0px;
+    color: rgb(209, 86, 178);
     font: italic bold 3em 'Bebas Neue', cursive;
-    padding: 20px;}
+    padding: 20px;
+}
 
-main  h2{
-   color:rgb(153, 0, 255) ;
-   font: bold 1.8em "PT serif", serif;
-   padding: 20px;
-   text-indent: 1.5em;}
-
- main  h3{
-    color:rgb(161, 78, 216) ;
+main h2 {
+    color: rgb(153, 0, 255);
     font: bold 1.8em "PT serif", serif;
     padding: 20px;
     text-indent: 1.5em;
-   }
+}
 
-main p{ padding: 10px;
+main h3 {
+    color: rgb(161, 78, 216);
+    font: bold 1.8em "PT serif", serif;
+    padding: 20px;
+    text-indent: 1.5em;
+}
+
+main p {
+    padding: 10px;
     text-indent: 1.8em;
-     line-height: 40px;
-    font-size: 1.4em;}
+    line-height: 40px;
+    font-size: 1.4em;
+}
 
-    h4{
-        text-indent: 1.8em;
-        font-size: 1.8em;
+h4 {
+    text-indent: 1.8em;
+    font-size: 1.8em;
 
-    }
-
-
-.centro {text-align: justify;}
-
-p.transparente{color: rgba(54, 8, 114, 0.699);
-font: normal normal 1.0em normal;
-padding: 10px;
-text-indent: 1.8em;
- line-height: 40px;}
+}
 
 
-ul li{font: normal normal 1.2em normal;
-list-style-type: none;
-text-indent: 1.8em;
- line-height: 40px;}
+.centro {
+    text-align: justify;
+}
 
-h3.important{text-align: center;
-background-image: linear-gradient(90deg,rgba(166, 88, 240, 0.356),rgba(247, 159, 247, 0.527));
-font: italic bolder 1.8em normal;
-padding: 15px;
-line-height: 40px;
-border-radius: 15px 0px;
-color: rgb(132, 0, 255);}
+p.transparente {
+    color: rgba(54, 8, 114, 0.699);
+    font: normal normal 1.0em normal;
+    padding: 10px;
+    text-indent: 1.8em;
+    line-height: 40px;
+}
 
-h4{ font: normal bold 1.1em normal;
-color: rgb(97, 66, 146);
-text-indent: 1.6em;
- line-height: 40px;}
 
- footer{
+ul li {
+    font: normal normal 1.2em normal;
+    list-style-type: none;
+    text-indent: 1.8em;
+    line-height: 40px;
+}
+
+h3.important {
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(166, 88, 240, 0.356), rgba(247, 159, 247, 0.527));
+    font: italic bolder 1.8em normal;
+    padding: 15px;
+    line-height: 40px;
+    border-radius: 15px 0px;
+    color: rgb(132, 0, 255);
+}
+
+h4 {
+    font: normal bold 1.1em normal;
+    color: rgb(97, 66, 146);
+    text-indent: 1.6em;
+    line-height: 40px;
+}
+
+footer {
     background-color: #8d3bb3;
 }
 
@@ -124,12 +147,12 @@ footer p {
     margin: 20px 0px 0px 0px;
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     color: rgba(255, 0, 128, 0.849);
     transition: .5s;
     font-size: 18px;

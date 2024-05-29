@@ -1,63 +1,77 @@
 @charset "UTF-8";
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-main{background-color: white;
+main {
+    background-color: white;
     border-radius: 0px 25px;
-    box-shadow: 5px 5px 15px; color: rgba(3, 3, 0, 0.596);
+    box-shadow: 5px 5px 15px;
+    color: rgba(3, 3, 0, 0.596);
     min-width: 300px;
     max-width: 1000px;
-    margin:auto;
-    margin-bottom: 30px;}
+    margin: auto;
+    margin-bottom: 30px;
+}
 
 
 
-    body{background-image:linear-gradient(90deg,#34495E,#9c59b6e1); font-family: Arial, Helvetica, sans-serif;}
+body {
+    background-image: linear-gradient(90deg, #34495E, #9c59b6e1);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
-    main h1{font: italic bold 2.5em 'Bebas Neue', cursive;
-    color: rgb(21, 21, 150); 
+main h1 {
+    font: italic bold 2.5em 'Bebas Neue', cursive;
+    color: rgb(21, 21, 150);
     text-align: center;
-    padding: 20px;}
+    padding: 20px;
+}
 
 
-    main h2{ font: italic bold 1.8em "Arial,san serif"; color: rgba(0, 0, 139, 0.671); 
+main h2 {
+    font: italic bold 1.8em "Arial,san serif";
+    color: rgba(0, 0, 139, 0.671);
     padding: 15px;
-    text-indent: 35px ;}
+    text-indent: 35px;
+}
 
-   main  p{color: black; text-align: justify;
-   padding: 20px;
+main p {
+    color: black;
+    text-align: justify;
+    padding: 20px;
     text-indent: 40px;
-    line-height: 1.8em;}
+    line-height: 1.8em;
+}
 
 main h2 a {
     text-decoration: none;
 }
-  main a {
-     color: darkblue;
-  }
 
-   header{
-        background-image: linear-gradient(to bottom,rgba(111, 0, 255, 0.822), #41dbd9ce );
-        min-height: 130px;
-        text-align: center;
-        padding-top:40px ;
-   }
+main a {
+    color: darkblue;
+}
 
-   header h1{
+header {
+    background-image: linear-gradient(to bottom, rgba(111, 0, 255, 0.822), #41dbd9ce);
+    min-height: 130px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    font-family:'Bebas Neue', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
-   }
- 
-   header p{
-    padding:  15px;
-    color: rgb(2 15px55, 255, 255);
+}
+
+header p {
+    padding: 15px;
     font-size: 1.2em;
     max-width: 500px;
     color: white;
@@ -65,28 +79,28 @@ main h2 a {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
     font-weight: bolder;
     padding: 30px;
-   }
-    
-   nav {
-    background-color: #41dbd9ce;
-   padding: 25px 15px;
-   }
+}
 
-   nav a{
+nav {
+    background-color: #41dbd9ce;
+    padding: 25px 15px;
+}
+
+nav a {
     color: rgb(0, 0, 0);
     padding: 10px;
     text-decoration: none;
     font: normal bold 1.2em normal;
 }
 
-nav a:hover{
+nav a:hover {
     transition-duration: .5s;
-   background-color: rgb(38, 0, 255);
-   color: rgb(255, 255, 255);
-   border-radius: 5px;
+    background-color: rgb(38, 0, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
 }
 
-footer{
+footer {
     background-color: #1c3a8f;
 }
 
@@ -95,12 +109,12 @@ footer p {
     color: rgb(255, 255, 255);
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     color: rgb(206, 27, 191);
     transition: .5s;
     font-size: 18px;

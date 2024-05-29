@@ -1,260 +1,321 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="jogos.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="conceito2.css">
-    <title>Aprofundamento em CSS</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            
-        }
-     </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="jogos.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="conceito2.css">
+  <title>Aprofundamento em CSS</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-      <h1>Este são os conceitos CSS</h1>
-      <p>Aqui está todos conceitos aprendidos sobre CSS</p>
-    </header>
-    <nav>
-      <a href="portifolio2.html">Home</a>
-      <a href="index1.html">Autobiografia</a>
-      <a href="meusprojetos.html">Projetos</a>
-      <a href="inglês.html">Conceitos</a>
-      <a href="sobremim.html">História</a>
-      <a href="contatos.html">Contato</a>
+  <header>
+    <h1>Este são os conceitos CSS</h1>
+    <p>Aqui está todos conceitos aprendidos sobre CSS</p>
+  </header>
+  <nav>
+    <a href="portifolio2.html">Home</a>
+    <a href="index1.html">Autobiografia</a>
+    <a href="meusprojetos.html">Projetos</a>
+    <a href="inglês.html">Conceitos</a>
+    <a href="sobremim.html">História</a>
+    <a href="contatos.html">Contato</a>
   </nav>
 
-    <main>
-      <h1>Aprofundamento em CSS</h1>
-      <hr>
-      <h2>Introdução ao CSS:</h2>
-      <P>
-      A sigla CSS significa "Cascading Style Sheets", que em português significa "Folhas de Estilo em Cascata". Usamos o CSS para o embelezamento do site e alterações nas marcações de texto HTML. Com o CSS, podemos definir a aparência e o layout de elementos HTML, como cores, fontes, espaçamentos e posicionamento. Ele permite separar o conteúdo da apresentação, o que facilita a manutenção e a atualização de um site.Sendo assim,vamos ver o funcionamento de um CSS.</P>
-      <h2>Estilos em CSS:</h2>
-      <h3>CSS inline: </h3>
-      <ul>
-          <li>Estilo aplicado diretamente nas tags HTML.</li>
-          <li>Exemplo:  :&LT;p&gt; e dentro da tag p você coloca &lt;style&gt;</li>
+  <main>
+    <h1>Aprofundamento em CSS</h1>
+    <hr>
+    <h2>Introdução ao CSS:</h2>
+    <P>
+      A sigla CSS significa "Cascading Style Sheets", que em português significa "Folhas de Estilo em Cascata". Usamos o
+      CSS para o embelezamento do site e alterações nas marcações de texto HTML. Com o CSS, podemos definir a aparência
+      e o layout de elementos HTML, como cores, fontes, espaçamentos e posicionamento. Ele permite separar o conteúdo da
+      apresentação, o que facilita a manutenção e a atualização de um site.Sendo assim,vamos ver o funcionamento de um
+      CSS.</P>
+    <h2>Estilos em CSS:</h2>
+    <h3>CSS inline: </h3>
+    <ul>
+      <li>Estilo aplicado diretamente nas tags HTML.</li>
+      <li>Exemplo: :&LT;p&gt; e dentro da tag p você coloca &lt;style&gt;</li>
+    </ul>
+    <h3>CSS interno:</h3>
+    <ul>
+      <li>Estilo definido dentro da seção &lt;style&gt; no elemento &lt;head&gt; do documento HTML.</li>
+      <li>Exemplo:&lt;head&gt;&lt;style&gt; body { propriedade: valor; } &lt;style&gt; &lt;head&gt;</li>
+    </ul>
+    <h3>CSS externo:</h3>
+    <ul>
+      <li>Estilo definido em um arquivo separado com extensão css.</li>
+      <li>Arquivo CSS vinculado ao documento HTML usando a tag &lt;link&gt; dentro da seção &lt;head&gt;.</li>
+      <li>Exemplo: &lt;head&gt; &lt;link&gt; rel="stylesheet" href=" seu css"> &lt;head&gt; </li>
+      <li>Regras de estilo mantidas em um arquivo separado, facilitando a manutenção e reutilização.</li>
+    </ul>
+    <h2>Conceitos básicos:</h2>
+    <ol>
+      <li>width= Largura</li>
+      <li>height= Altura</li>
+      <li>padding= Distância de um conteúdo</li>
+      <li>border= Borda </li>
+      <li>margin= Margem</li>
+      <li>outline= Tracejado fora do elemento</li>
+    </ol>
+    <h2>Psícologia das cores:</h2>
+    <p>
+      As cores exercem um papel fundamental na atração e no envolvimento dos usuários em um site. Elas não apenas
+      capturam a atenção de todos ao redor, mas também influenciam as emoções e percepções das pessoas. Sendo assim,
+      crucial que um site utilize cores que estejam em sintonia com o assunto abordado, através da harmonização
+      cuidadosa das tonalidades.</p>
+    <p>A escolha das cores deve refletir a essência e a mensagem do conteúdo apresentado. Por exemplo, tons suaves e
+      tranquilos podem ser ideais para sites relacionados a bem-estar, saúde e natureza(verde), enquanto cores vibrantes
+      e vivas podem ser mais apropriadas para páginas que abordam temas de energia, criatividade ou
+      entretenimento(vermelho).</p>
+    <h2>Harmonia das cores:</h2>
+    <p>Sabe quando você olha um site ou até mesmo uma roupa e acha aquilo muito bonito pela junção das cores? Isso tem
+      um nome, e o nome é harmonização das cores, que, no caso, é a mistura das cores de uma maneira que atraia o
+      público. É como se fosse uma espécie de mágica, onde cada cor se complementa e realça a beleza umas das outras. É
+      interessante como as cores podem transmitir sensações e influenciar nossas percepções, não é mesmo?</p>
+    <h3>Sendo assim,vamos entender como funciona isso:</h3>
+    <p>As cores são como um quebra-cabeça que formam o mundo ao nosso redor,chamando a atenção de todos.</p>
+    <p>As cores são separadas em três tipos:</p>
+    <p>
+    <h4>Cores prímarias:</h4>
+    <ul>
+      <li>As cores prímarias são: <p style="color: red;">Vermelho</p>
+        <p style="color: blue;">Azul</p>
+        <p style="color: rgb(173, 173, 22);">Amarelo</p>Elas são os pilares das cores.
+      </li>
+    </ul>
+    <h4>Cores secundárias:</h4>
+    <ul>
+      <li>As cores secundárias surgem da mistura delas com as primárias: <p style="color: rgb(187, 126, 12);">Laranja
+          (vermelho + amarelo)</p>
+        <p style="color: green;">Verde (amarelo + azul)</p>
+        <p style="color: rgb(168, 68, 168);">Violeta (azul + vermelho)</p>.
+      </li>
+    </ul>
+    <h4>Cores terciárias:</h4>
+    <ul>
+      <li> Por fim, temos as cores terciárias, resultantes da mistura de uma cor primária com uma secundária. É aí que
+        as possibilidades se tornam infinitas, com tons como :<p style="color: rgb(187, 64, 15);"> Vermelho-alaranjado
+        </p>
+        <p style="color: rgb(18, 180, 126);"> Azul-esverdeado</p>
+        <p style="color: rgb(190, 163, 10);"> Amarelo-alaranjado</p>
+        <p style="color: blueviolet;">Azul-arroxeado</p>
+      </li>
+    </ul>
+    <h4 style="color:blueviolet ;">Cores frias:</h4>
+    <ul>
+      <li>As cores frias tem a função de transmitir efeitos calmantes e refrescantes com muita tranquilidade.As cores
+        que são consideradas cores frias são: <p style="color: rgb(184, 82, 184);">Violeta</p>
+        <p style="color: blue;">Azul</p>
+        <p style="color: green;"> Verde</p>
+      </li>
+    </ul>
+    <h4 style="color: rgb(255, 115, 0);">Cores quentes:</h4>
+    <ul>
+      <li>Já as cores quentes transmitem sensação de calor, alegria e descontração.As cores que são consideradas cores
+        quentes são:<p style="color: red;">Vermelho</p>
+        <p style="color: rgb(190, 132, 24);">Laranja </p>
+        <p style="color: rgb(190, 190, 34);">Amarelo</p>
+      </li>
+    </ul>
+    <p>Sendo assim, a definição das cores é como um grande jogo de mistura e combinação, onde cada tonalidade acrescenta
+      uma nova camada de beleza ao mundo ao nosso redor.</p>
+    <h2>Paleta de cores:</h2>
+    <p>A paleta de cores é um elemento crucial para criar harmonia em um site, utilizando tons similares aos que serão
+      empregados. Por exemplo, em minha biografia, optei por apenas três cores:azul esverdeado, amarelo-esverdeado e
+      verde. Essa escolha de cores similares proporciona um visual diferenciado e atrativo. É importante ressaltar que
+      cada site tem sua função específica, e não adianta usar cores como o preto em um site de comida, pois isso pode
+      afastar o público consumidor. Portanto, é essencial compreender o significado das cores para fazer a melhor
+      escolha de paletas. Existem sites que auxiliam nesse processo, como o Adobe Color e o Palleton, que facilitam a
+      manipulação das paletas de cores, ajudando a alcançar o visual desejado com precisão.</p>
+    <h2>Fonte de letras:</h2>
+    <p>As fontes são um conjuntos de glifos que formam uma tipográfia.Existem varíos formatos de glifos,com cada deles
+      em sua determinada família</p>
+    <h3>Categoria das fontes:</h3>
+    <h4>Fontes serifadas:</h4>
+    <p>As fontes serifadas têm pequenos traços adicionais no final das linhas principais de cada caractere, chamados de
+      serifas. Elas são frequentemente associadas à formalidade e tradição. Exemplos incluem Times New Roman, Georgia e
+      Garamond.</p>
+    <h4>Fontes não serifadas:</h4>
+    <p>As fontes não serifadas, como o nome sugere, não possuem as serifas adicionais. Elas tendem a ter uma aparência
+      mais limpa e moderna, e são frequentemente usadas em contextos digitais e informais. Exemplos incluem Arial,
+      Helvetica e Verdana.</p>
+    <h4>Fontes display:</h4>
+    <p>As fontes display são projetadas para chamar a atenção e são frequentemente usadas em títulos, cabeçalhos e
+      designs de destaque. Elas podem variar muito em estilo e forma, desde letras extravagantes até formas incomuns e
+      artísticas. Exemplos incluem Lobster, Impact e Bangers.</p>
+    <h4>Fontes script: </h4>
+    <p> As fontes script imitam a caligrafia manuscrita e tendem a ser mais ornamentadas e decorativas. Elas são
+      frequentemente usadas em convites, logotipos e materiais de design que buscam transmitir uma sensação de elegância
+      e personalização. Exemplos incluem Pacifico, Brush Script e Great Vibes.</p>
+    <h4>Fonte monoespaçada:</h4>
+    <p>As fontes monoespacadas têm a característica única de que cada caractere ocupa a mesma largura, criando uma
+      aparência mais uniforme. Elas são frequentemente usadas em programação, codificação e em contextos onde a precisão
+      visual é importante. Exemplos incluem Courier, Consolas e Monaco.</p>
+    <h2>Tamanho de fontes:</h2>
+    <p>Para especificar cada tamanho de fonte, existem várias medidas, como cm (centímetros), pt (pontos), in
+      (polegadas), pc (paicas) e em (tamanho relativo da fonte), e usamos essas tags para adicionar as suas fontes: </p>
+    <ol type="I">
+      <li>&lt;font-family&gt=Fonte da letra.</li>
+      <li>&lt;font-style&gt;=Itálico não semântico.</li>
+      <li>&lt;font-weight&gt;=Negrito não semântico.</li>
+      <li>&lt;font-size&gt;=Tamanho da fonte.</li>
+    </ol>
+    <h2>Seletores personalizados:</h2>
+    <h3>Id:</h3>
+    <p>Um id é um elemento único dentro de sua página.O id consegue permitir que criemos um seletor especial em seu
+      site.</p>
+    <h4>Exemplo:</h4>
+    <p id="exemplo">Este é um exemplo de um seletor especial,para isso usamos a tag # no CSS</p>
+    <h3>Class</h3>
+    <p class="exemplo">Usamos um ponto (como nesse exemplo) para definir a class vindo antes do nome da classe.</p>
+    <h3>Pseudo classes e elementos</h3>
+    <p>Uma pseudo classe e uma palavra chave após o uso dos dois pontos(:)</p>
+    <p>Já um pseudo elementos usamos (::)</p>
+    <h4>Exemplo com links:</h4>
+    <p><a href="index1.html" class="especial">Biografia</a> </p>
+    <p><a href="Conceitos.html">HTML</a></p>
+    <h2>Modelo de Caixas</h2>
+    <p>Antes de um aprofundamento temos que saber que existem dois tipos de caixas, o box Level e o iniline Level, o box
+      Level sempre se inicia em uma linha nova e sempre ocupa a largura(width) total da tela, já o inline Level não
+      quebra a linha e não ocupa o tamanho da página toda, assim o conteúdo seguindo na mesma linha depois do modelo
+      inline. Um exemplo de tag usada no box Level são as &lt;div&gt; e já no inline-Level são as span.</p>
+    <h3 class="center">Tags usadas no box-Level:</h3>
+    <ul class="collum ">
+      <li>div</li>
+      <li>h1-h6</li>
+      <li>p</li>
+      <li>main</li>
+      <li>header</li>
+      <li>nav</li>
+      <li>form</li>
+      <li>vídeo</li>
+    </ul>
+    <h3 class="center">Tags utiliazadas no inline-Level:</h3>
+    <ul class="collum">
+      <li>span</li>
+      <li>strong</li>
+      <li>em</li>
+      <li>sup-sub</li>
+      <li>small</li>
+      <li>code</li>
+      <li>a</li>
+      <li>label</li>
+      <li>button</li>
+      <li>input</li>
+      <li> select</li>
+    </ul>
+    <aside>
+      <h2 class="tags">Todas tags que sei utilizar em css:</h2>
+      <h3>Layout e Posicionamento:</h3>
+      <ul class="ulli">
+        <li>display: Define como um elemento é exibido.</li>
+        <li>position: Controla o posicionamento de um elemento.</li>
+        <li>float: Define como um elemento deve se comportar em relação aos elementos à sua volta.</li>
+        <li>clear: Define como um elemento deve se comportar em relação aos elementos flutuantes.</li>
+        <li>flexbox: Um conjunto de propriedades para layouts flexíveis.</li>
+        <li>grid: Um sistema de layout bidimensional.</li>
+        <li>z-index: Controla a ordem de empilhamento dos elementos.</li>
+        <li>top, right, bottom, left: Define as coordenadas de posicionamento de um elemento.</li>
       </ul>
-      <h3>CSS interno:</h3>
-      <ul>
-          <li>Estilo definido dentro da seção &lt;style&gt; no elemento &lt;head&gt; do documento HTML.</li>
-          <li>Exemplo:&lt;head&gt;&lt;style&gt; body {  propriedade: valor;  }  &lt;style&gt; &lt;head&gt;</li>
+      <h3>Tipografia:</h3>
+      <ul class="ulli">
+        <li>font-family: Define a família de fontes a ser usada.</li>
+        <li>font-size: Define o tamanho da fonte.</li>
+        <li>font-weight: Define a espessura da fonte.</li>
+        <li>font-style: Define o estilo da fonte (normal, itálico, etc.).</li>
+        <li>text-align: Define o alinhamento horizontal do texto.</li>
+        <li>line-height: Define a altura da linha.</li>
+        <li>letter-spacing: Define o espaçamento entre letras.</li>
+        <li>word-spacing: Define o espaçamento entre palavras.</li>
+        <li>text-decoration: Define a decoração do texto (sublinhado, tachado, etc.).</li>
+        <li>text-transform: Define a transformação do texto (maiúsculas, minúsculas, etc.).</li>
       </ul>
-      <h3>CSS externo:</h3>
-      <ul>
-       <li>Estilo definido em um arquivo separado com extensão css.</li>
-       <li>Arquivo CSS vinculado ao documento HTML usando a tag &lt;link&gt; dentro da seção &lt;head&gt;.</li>
-       <li>Exemplo: &lt;head&gt;  &lt;link&gt; rel="stylesheet" href=" seu css"> &lt;head&gt;   </li>
-       <li>Regras de estilo mantidas em um arquivo separado, facilitando a manutenção e reutilização.</li>
+      <h3>Cores e Fundos:</h3>
+      <ul class="ulli">
+        <li>color: Define a cor do texto.</li>
+        <li>background-color: Define a cor do plano de fundo.</li>
+        <li>background-image: Define uma imagem de fundo.</li>
+        <li>opacity: Define a opacidade de um elemento.</li>
+        <li>rgba(): Notação para cores com transparência.</li>
+        <li>linear-gradient(): Cria gradientes lineares.</li>
+        <li>radial-gradient(): Cria gradientes radiais.</li>
       </ul>
-      <h2>Conceitos básicos:</h2>
-      <ol>
-          <li>width= Largura</li>
-          <li>height= Altura</li>
-          <li>padding= Distância de um conteúdo</li>
-          <li>border= Borda </li>
-          <li>margin= Margem</li>
-          <li>outline= Tracejado fora do elemento</li>
-      </ol>
-      <h2>Psícologia das cores:</h2>
-      <p>
-      As cores exercem um papel fundamental na atração e no envolvimento dos usuários em um site. Elas não apenas capturam a atenção de todos ao redor, mas também influenciam as emoções e percepções das pessoas. Sendo assim, crucial que um site utilize cores que estejam em sintonia com o assunto abordado, através da harmonização cuidadosa das tonalidades.</p>
-      <p>A escolha das cores deve refletir a essência e a mensagem do conteúdo apresentado. Por exemplo, tons suaves e tranquilos podem ser ideais para sites relacionados a bem-estar, saúde e natureza(verde), enquanto cores vibrantes e vivas podem ser mais apropriadas para páginas que abordam temas de energia, criatividade ou entretenimento(vermelho).</p>
-      <h2>Harmonia das cores:</h2>
-      <p>Sabe quando você olha um site ou até mesmo uma roupa e acha aquilo muito bonito pela junção das cores? Isso tem um nome, e o nome é harmonização das cores, que, no caso, é a mistura das cores de uma maneira que atraia o público. É como se fosse uma espécie de mágica, onde cada cor se complementa e realça a beleza umas das outras. É interessante como as cores podem transmitir sensações e influenciar nossas percepções, não é mesmo?</p>
-      <h3>Sendo assim,vamos entender como funciona isso:</h3>
-      <p>As cores são como um quebra-cabeça que formam o mundo ao nosso redor,chamando a atenção de todos.</p>
-      <p>As cores são separadas em três tipos:</p>
-      <p>
-      <h4>Cores prímarias:</h4>
-        <ul>
-            <li>As cores prímarias são: <p style="color: red;">Vermelho</p> <p style="color: blue;">Azul</p>  <p style="color: rgb(173, 173, 22);">Amarelo</p>Elas são os pilares das cores. </li>
-        </ul>
-      <h4>Cores secundárias:</h4>
-        <ul>
-           <li>As cores secundárias surgem da mistura delas com as primárias: <p style="color: rgb(187, 126, 12);">Laranja (vermelho + amarelo)</p><p style="color: green;">Verde (amarelo + azul)</p> <p style="color: rgb(168, 68, 168);">Violeta (azul + vermelho)</p>.</li>
-         </ul>
-      <h4>Cores terciárias:</h4>
-          <ul>
-            <li> Por fim, temos as cores terciárias, resultantes da mistura de uma cor primária com uma secundária. É aí que as possibilidades se tornam infinitas, com tons como :<p style="color: rgb(187, 64, 15);"> Vermelho-alaranjado</p> <p style="color: rgb(18, 180, 126);"> Azul-esverdeado</p><p style="color: rgb(190, 163, 10);"> Amarelo-alaranjado</p><p style="color: blueviolet;">Azul-arroxeado</p></li>
-          </ul>
-       <h4 style="color:blueviolet ;">Cores frias:</h4>
-       <ul>
-          <li>As cores frias tem a função de transmitir efeitos calmantes e refrescantes com muita tranquilidade.As cores que são consideradas cores frias são: <p style="color: rgb(184, 82, 184);">Violeta</p> <p style="color: blue;">Azul</p> <p style="color: green;"> Verde</p> </li>
-       </ul>
-       <h4 style="color: rgb(255, 115, 0);">Cores quentes:</h4>
-       <ul>
-          <li>Já as cores quentes transmitem sensação de calor, alegria e descontração.As cores que são consideradas cores quentes são:<p style="color: red;">Vermelho</p>  <p style="color: rgb(190, 132, 24);">Laranja </p> <p style="color: rgb(190, 190, 34);">Amarelo</p> </li>
-       </ul>
-       <p>Sendo assim, a definição das cores é como um grande jogo de mistura e combinação, onde cada tonalidade acrescenta uma nova camada de beleza ao mundo ao nosso redor.</p>
-       <h2>Paleta de cores:</h2>
-       <p>A paleta de cores é um elemento crucial para criar harmonia em um site, utilizando tons similares aos que serão empregados. Por exemplo, em minha biografia, optei por apenas três cores:azul esverdeado, amarelo-esverdeado e verde. Essa escolha de cores similares proporciona um visual diferenciado e atrativo. É importante ressaltar que cada site tem sua função específica, e não adianta usar cores como o preto em um site de comida, pois isso pode afastar o público consumidor. Portanto, é essencial compreender o significado das cores para fazer a melhor escolha de paletas. Existem sites que auxiliam nesse processo, como o Adobe Color e o Palleton, que facilitam a manipulação das paletas de cores, ajudando a alcançar o visual desejado com precisão.</p>
-       <h2>Fonte de letras:</h2>
-       <p>As fontes são um conjuntos de glifos que formam uma tipográfia.Existem varíos formatos de glifos,com cada deles em sua determinada família</p>
-       <h3>Categoria das fontes:</h3>
-       <h4>Fontes serifadas:</h4>
-       <p>As fontes serifadas têm pequenos traços adicionais no final das linhas principais de cada caractere, chamados de serifas. Elas são frequentemente associadas à formalidade e tradição. Exemplos incluem Times New Roman, Georgia e Garamond.</p>
-       <h4>Fontes não serifadas:</h4>
-       <p>As fontes não serifadas, como o nome sugere, não possuem as serifas adicionais. Elas tendem a ter uma aparência mais limpa e moderna, e são frequentemente usadas em contextos digitais e informais. Exemplos incluem Arial, Helvetica e Verdana.</p>
-       <h4>Fontes display:</h4>
-       <p>As fontes display são projetadas para chamar a atenção e são frequentemente usadas em títulos, cabeçalhos e designs de destaque. Elas podem variar muito em estilo e forma, desde letras extravagantes até formas incomuns e artísticas. Exemplos incluem Lobster, Impact e Bangers.</p>
-       <h4>Fontes script: </h4>
-       <p> As fontes script imitam a caligrafia manuscrita e tendem a ser mais ornamentadas e decorativas. Elas são frequentemente usadas em convites, logotipos e materiais de design que buscam transmitir uma sensação de elegância e personalização. Exemplos incluem Pacifico, Brush Script e Great Vibes.</p>
-       <h4>Fonte monoespaçada:</h4>
-       <p>As fontes monoespacadas têm a característica única de que cada caractere ocupa a mesma largura, criando uma aparência mais uniforme. Elas são frequentemente usadas em programação, codificação e em contextos onde a precisão visual é importante. Exemplos incluem Courier, Consolas e Monaco.</p>
-       <h2>Tamanho de fontes:</h2>
-       <p>Para especificar cada tamanho de fonte, existem várias medidas, como cm (centímetros), pt (pontos), in (polegadas), pc (paicas) e em (tamanho relativo da fonte), e usamos essas tags para adicionar as suas fontes:  </p>
-       <ol type="I">
-          <li>&lt;font-family&gt=Fonte da letra.</li>
-          <li>&lt;font-style&gt;=Itálico não semântico.</li>
-          <li>&lt;font-weight&gt;=Negrito não semântico.</li>
-          <li>&lt;font-size&gt;=Tamanho da fonte.</li>
-       </ol>
-       <h2>Seletores personalizados:</h2>
-       <h3>Id:</h3>
-       <p>Um id é um elemento único dentro de sua página.O id consegue permitir que criemos um seletor especial em seu site.</p>
-       <h4>Exemplo:</h4>
-       <p id="exemplo">Este é um exemplo de um seletor especial,para isso usamos a tag # no CSS</p>
-       <h3>Class</h3>
-       <p class="exemplo">Usamos um ponto (como nesse exemplo) para definir a class vindo antes do nome da classe.</p>
-       <h3>Pseudo classes e elementos</h3>
-       <p>Uma pseudo classe e uma palavra chave após o uso dos dois pontos(:)</p>
-       <p>Já um pseudo elementos usamos (::)</p>
-       <h4>Exemplo com links:</h4>
-      <p><a href="index1.html" class="especial">Biografia</a>  </p>
-      <p><a href="Conceitos.html">HTML</a></p>
-      <h2>Modelo de Caixas</h2>
-      <p>Antes de um aprofundamento temos que saber que existem dois tipos de caixas, o box Level e o iniline Level, o box Level sempre se inicia em uma linha nova e sempre ocupa a largura(width) total da tela, já o inline Level não quebra a linha e não ocupa o tamanho da página toda, assim o conteúdo seguindo na mesma linha depois do modelo inline. Um exemplo de tag usada no box Level são as &lt;div&gt; e já no inline-Level são as span.</p>
-      <h3 class="center">Tags usadas no box-Level:</h3>
-      <ul class="collum " >
-        <li>div</li>
-        <li>h1-h6</li>
-        <li>p</li>
-        <li>main</li>
-        <li>header</li>
-        <li>nav</li>
-        <li>form</li>
-        <li>vídeo</li>
+      <h3>Bordas e caixas:</h3>
+      <ul class="ulli">
+        <li>border: Define a borda de um elemento.</li>
+        <li>border-radius: Define o raio da borda.</li>
+        <li>box-shadow: Adiciona sombra à caixa de um elemento.</li>
+        <li>outline: Define uma linha ao redor de um elemento sem afetar o layout.</li>
       </ul>
-      <h3 class="center">Tags utiliazadas no inline-Level:</h3>
-      <ul class="collum">
-          <li>span</li>
-          <li>strong</li>
-          <li>em</li>
-          <li>sup-sub</li>
-          <li>small</li>
-          <li>code</li>
-          <li>a</li>
-          <li>label</li>
-          <li>button</li>
-          <li>input</li>
-          <li> select</li>
+      <h3>Espaçamentos e dimensôes:</h3>
+      <ul class="ulli">
+        <li>width: Define a largura de um elemento.</li>
+        <li>height: Define a altura de um elemento.</li>
+        <li>max-width: Define a largura máxima de um elemento.</li>
+        <li>max-height: Define a altura máxima de um elemento.</li>
+        <li>min-width: Define a largura mínima de um elemento.</li>
+        <li>min-height: Define a altura mínima de um elemento.</li>
+        <li>margin: Define as margens externas de um elemento.</li>
+        <li>padding: Define o preenchimento interno de um elemento.</li>
+        <li>box-sizing: Define como as dimensões de um elemento são calculadas.</li>
       </ul>
-      <aside>
-        <h2 class="tags">Todas tags que sei utilizar em css:</h2>
-        <h3>Layout e Posicionamento:</h3>
-        <ul class="ulli">
-          <li>display: Define como um elemento é exibido.</li>
-          <li>position: Controla o posicionamento de um elemento.</li>
-          <li>float: Define como um elemento deve se comportar em relação aos elementos à sua volta.</li>
-          <li>clear: Define como um elemento deve se comportar em relação aos elementos flutuantes.</li>
-          <li>flexbox: Um conjunto de propriedades para layouts flexíveis.</li>
-          <li>grid: Um sistema de layout bidimensional.</li>
-          <li>z-index: Controla a ordem de empilhamento dos elementos.</li>
-          <li>top, right, bottom, left: Define as coordenadas de posicionamento de um elemento.</li>
-        </ul>
-        <h3>Tipografia:</h3>
-        <ul class="ulli">
-          <li>font-family: Define a família de fontes a ser usada.</li>
-          <li>font-size: Define o tamanho da fonte.</li>
-          <li>font-weight: Define a espessura da fonte.</li>
-          <li>font-style: Define o estilo da fonte (normal, itálico, etc.).</li>
-          <li>text-align: Define o alinhamento horizontal do texto.</li>
-          <li>line-height: Define a altura da linha.</li>
-          <li>letter-spacing: Define o espaçamento entre letras.</li>
-          <li>word-spacing: Define o espaçamento entre palavras.</li>
-          <li>text-decoration: Define a decoração do texto (sublinhado, tachado, etc.).</li>
-          <li>text-transform: Define a transformação do texto (maiúsculas, minúsculas, etc.).</li>
-        </ul>
-        <h3>Cores e Fundos:</h3>
-        <ul class="ulli">
-          <li>color: Define a cor do texto.</li>
-          <li>background-color: Define a cor do plano de fundo.</li>
-          <li>background-image: Define uma imagem de fundo.</li>
-          <li>opacity: Define a opacidade de um elemento.</li>
-          <li>rgba(): Notação para cores com transparência.</li>
-          <li>linear-gradient(): Cria gradientes lineares.</li>
-          <li>radial-gradient(): Cria gradientes radiais.</li>
-        </ul>
-        <h3>Bordas e caixas:</h3>
-        <ul class="ulli">
-          <li>border: Define a borda de um elemento.</li>
-          <li>border-radius: Define o raio da borda.</li>
-          <li>box-shadow: Adiciona sombra à caixa de um elemento.</li>
-          <li>outline: Define uma linha ao redor de um elemento sem afetar o layout.</li>
-        </ul>
-        <h3>Espaçamentos e dimensôes:</h3>
-        <ul class="ulli">
-          <li>width: Define a largura de um elemento.</li>
-          <li>height: Define a altura de um elemento.</li>
-          <li>max-width: Define a largura máxima de um elemento.</li>
-          <li>max-height: Define a altura máxima de um elemento.</li>
-          <li>min-width: Define a largura mínima de um elemento.</li>
-          <li>min-height: Define a altura mínima de um elemento.</li>
-          <li>margin: Define as margens externas de um elemento.</li>
-          <li>padding: Define o preenchimento interno de um elemento.</li>
-          <li>box-sizing: Define como as dimensões de um elemento são calculadas.</li>
-        </ul>
-        <h3>Transições e animações:</h3>
-        <ul class="ulli">
-          <li>transition: Adiciona transições suaves a propriedades CSS.</li>
-          <li>animation: Define animações personalizadas.</li>
-          <li>@keyframes: Define os estágios de uma animação.</li>
-        </ul>
-        <h3>Transformações:</h3>
-        <ul class="ulli">
-          <li>transform: Aplica transformações 2D e 3D a um elemento.</li>
-          <li>translate(): Move um elemento ao longo do eixo X e Y.</li>
-          <li>rotate(): Rotaciona um elemento.</li>
-          <li>scale(): Escala um elemento.</li>
-        </ul>
-        <h3>Listas:</h3>
-        <ul class="ulli">
-          <li>list-style-type: Define o estilo do marcador de lista.</li>
-          <li>list-style-image: Define uma imagem como marcador de lista.</li>
-          <li>list-style-position: Define a posição do marcador de lista.</li>
-        </ul>
-        <h3>Efeitos visuais:</h3>
-        <ul class="ulli">
-          <li>opacity: Define a opacidade de um elemento.</li>
-          <li>visibility: Define a visibilidade de um elemento.</li>
-          <li>overflow: Controla o comportamento do conteúdo que estoura de um contêiner.</li>
-        </ul>
-        <h3>Pseudo-classes e Pseudo-elementos:</h3>
-        <ul class="ulli">
-          <li>:hover: Aplica estilos quando o cursor paira sobre um elemento.</li>
-          <li>:active: Aplica estilos quando um elemento está ativo.</li>
-          <li>:focus: Aplica estilos quando um elemento está em foco.</li>
-          <li>:nth-child(): Seleciona elementos com base em sua posição na hierarquia.</li>
-        </ul>
-        <h3>Unidadees de medidas:</h3>
-        <ul class="ulli">
-          <li>px: Pixels.</li>
-          <li>em: Relativo ao tamanho da fonte do elemento pai.</li>
-          <li>rem: Relativo ao tamanho da fonte do elemento raiz.</li>
-          <li>%: Porcentagem do tamanho do elemento pai.</li>
-          <li>vw: Relativo à largura da janela de visualização.</li>
-          <li>vh: Relativo à altura da janela de visualização.</li>
-        </ul>
-      </aside>
-    </main>
-    <footer>
-      <p><i class="bi bi-envelope"></i> <a href="mailto:arthur.resende.gomes02@gmail.com">arthur.resende.gomes02@gmail.com</a></p>
-    </footer>
+      <h3>Transições e animações:</h3>
+      <ul class="ulli">
+        <li>transition: Adiciona transições suaves a propriedades CSS.</li>
+        <li>animation: Define animações personalizadas.</li>
+        <li>@keyframes: Define os estágios de uma animação.</li>
+      </ul>
+      <h3>Transformações:</h3>
+      <ul class="ulli">
+        <li>transform: Aplica transformações 2D e 3D a um elemento.</li>
+        <li>translate(): Move um elemento ao longo do eixo X e Y.</li>
+        <li>rotate(): Rotaciona um elemento.</li>
+        <li>scale(): Escala um elemento.</li>
+      </ul>
+      <h3>Listas:</h3>
+      <ul class="ulli">
+        <li>list-style-type: Define o estilo do marcador de lista.</li>
+        <li>list-style-image: Define uma imagem como marcador de lista.</li>
+        <li>list-style-position: Define a posição do marcador de lista.</li>
+      </ul>
+      <h3>Efeitos visuais:</h3>
+      <ul class="ulli">
+        <li>opacity: Define a opacidade de um elemento.</li>
+        <li>visibility: Define a visibilidade de um elemento.</li>
+        <li>overflow: Controla o comportamento do conteúdo que estoura de um contêiner.</li>
+      </ul>
+      <h3>Pseudo-classes e Pseudo-elementos:</h3>
+      <ul class="ulli">
+        <li>:hover: Aplica estilos quando o cursor paira sobre um elemento.</li>
+        <li>:active: Aplica estilos quando um elemento está ativo.</li>
+        <li>:focus: Aplica estilos quando um elemento está em foco.</li>
+        <li>:nth-child(): Seleciona elementos com base em sua posição na hierarquia.</li>
+      </ul>
+      <h3>Unidadees de medidas:</h3>
+      <ul class="ulli">
+        <li>px: Pixels.</li>
+        <li>em: Relativo ao tamanho da fonte do elemento pai.</li>
+        <li>rem: Relativo ao tamanho da fonte do elemento raiz.</li>
+        <li>%: Porcentagem do tamanho do elemento pai.</li>
+        <li>vw: Relativo à largura da janela de visualização.</li>
+        <li>vh: Relativo à altura da janela de visualização.</li>
+      </ul>
+    </aside>
+  </main>
+  <footer>
+    <p><i class="bi bi-envelope"></i> <a
+        href="mailto:arthur.resende.gomes02@gmail.com">arthur.resende.gomes02@gmail.com</a></p>
+  </footer>
 </body>
+
 </html>
