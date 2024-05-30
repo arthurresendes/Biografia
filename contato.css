@@ -1,84 +1,51 @@
-*{
+@charset "UTF-8";
+
+* {
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
-    width: 50px;
-   height: 50px;
-   border-radius: 50px;
-}
-img:hover{
-    width: 55px;
-    height: 55px;
-    transition: .2s;
+html,
+body {
+    height: 100vh;
+    width: 100vh;
 }
 
-img.whats:hover{
-    box-shadow: 5px 5px 18px green; 
+body {
+    background: url(Rsociais/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-img.inst:hover{
-    box-shadow: 5px 5px 18px purple;
+main {
+    height: 100vh;
+    position: relative;
 }
 
-img.git:hover{
-    box-shadow: 5px 5px 18px black;
-}
-
-img.link:hover{
-    box-shadow: 5px 5px 18px aqua;
-}
-
-footer{
+section#telefone {
     display: flex;
-    justify-content: center;
-}
-footer a{
-    margin: 30px;
-    text-align: center;
+    width: 311px;
+    height: 627px;
+    background: url(Rsociais/frame-iphone.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 }
-main{background-color: white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 15px; color: rgba(52, 63, 10, 0.596);
-     min-width: 300px;
-    max-width: 1000px;
-    padding: 50px;
-    margin:auto}
-    
-    
-    body{background-image: linear-gradient(90deg,#5DADE2,#ABEBC6);}
-    main h1{
-        text-align: center;
-        color: purple;
-        font: italic bold 3em san-serif;
-        font-weight: 1000px;
-        padding: 15px;
-    }
 
-    main h2{
-        text-align: center; color: black;
-        font: normal bold 1.7em san-serif;
-        padding: 15px;
-    }
-    
-   nav {
-    background-image: linear-gradient(to bottom , #f50083, pink);
-   padding: 15px;
-
-   }
-
-   nav a{
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    text-decoration: none;
-    font: normal bold 1.2em normal;
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
 
-nav a:hover{
-    transition-duration: .5s;
-   background-color: rgb(174, 0, 255);
-   color: rgb(255, 255, 255);
-   border-radius: 5px;
+section#redes-sociais>a>img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
 }
