@@ -6,27 +6,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html,
-body {
-    height: 100vh;
-    width: 100vh;
-}
+
 
 body {
     background: url(Rsociais/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
+    width: 100vh;
+
 }
 
 main {
     height: 100vh;
-    position: relative;
 }
 
 section#telefone {
-    display: flex;
     width: 311px;
-    height: 627px;
+    height: 617px;
     background: url(Rsociais/frame-iphone.png) no-repeat;
     position: absolute;
     top: 50%;
@@ -43,9 +40,21 @@ iframe#tela {
     height: 471px;
 }
 
-section#redes-sociais>a>img {
+
+
+
+section#redes-sociais img{
     width: 50px;
     height: 50px;
     margin: 10px;
     border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    transform: translate(-3px,-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    transition: .2s, border .1s;
 }
