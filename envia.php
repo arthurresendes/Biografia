@@ -1,22 +1,25 @@
+
 <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $telefone = filter_input(INPUT_POST, 'telefone', FILTER_SANITIZE_STRING);
+    $msg = filter_input(INPUT_POST, 'msg', FILTER_SANITIZE_STRING);
 
-$nome = addslashes($_POST ['nome']);
-$email = addslashes($_POST ['email']);
-$telefone = addslashes($_POST ['telefone']);
-$msg = addslashes($_POST ['msg']);
+    if ($nome && $email && $msg) {
+        $para = "arthur.resende.gomes02@gmail.com";
+        $assunto = "Fale comigo - Portfolio";
 
-$para = "arthur.resende.gomes02@gmail.com";
-$assunto = "Fale comigo - Portfolio";
+        $corpo = "Nome: " . $nome . "\n" . "E-mail: " . $email . "\n" . "Telefone: " . $telefone . "\n" . "Mensagem: " . $msg;
+        $cabeca = "From: arthur.resende.gomes1@gmail.com\n" . "Reply-to: " . $email . "\n" . "X-Mailer: PHP/" . phpversion();
 
-$corpo = "Nome: ".$nome."\n"."E-mail: ".$email."\n"."Telefone: ".$telefone."\n"."Mensagem: ".$msg;
-
-$cabeca = "From: arthur.resende.gomes1@gmail.com"."\n"."Reply-to:".$email."\n"."X=Mailer:PHP/".phpversion();
-
-if(mail ($para,$assunto,$corpo,$cabeca)){
-    echo("E-mail enviado com sucesso!");
-}else{
-    echo("Houve um erro ao enviar o email!");
+        if (mail($para, $assunto, $corpo, $cabeca)) {
+            echo("E-mail enviado com sucesso!");
+        } else {
+            echo("Houve um erro ao enviar o e-mail!");
+        }
+    } else {
+        echo("Dados inválidos. Por favor, verifique suas entradas.");
+    }
 }
-
->
-
+?>
