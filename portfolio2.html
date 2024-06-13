@@ -174,11 +174,11 @@
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-                <form action="">
-                    <input class="formulario2" type="text" name="" id="" placeholder="Seu nome completo:" required>
-                    <input class="formulario3" type="text" name="" id="" placeholder="Seu e-mail:" required>
-                    <input class="formulario4" type="text" name="" id="" placeholder="Seu celular:">
-                    <textarea class="formulario5" name="" id="" placeholder="Sua mensagem:" required></textarea>
+                <form action="envia.php" method="post">
+                    <input class="formulario2" type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input class="formulario3" type="text" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input class="formulario4" type="text" name="telefone" id="telefone" placeholder="Seu celular:">
+                    <textarea class="formulario5" name="msg" id="msg" placeholder="Sua mensagem:" required></textarea>
                     <div class="btn-enviar formulario1"><input type="submit" value="ENVIAR"></div>
                 </form>
 
