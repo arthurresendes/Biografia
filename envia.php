@@ -21,5 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo("Dados inválidos. Por favor, verifique suas entradas.");
     }
+} else {
+    echo("Método de requisição não permitido. Use o método POST.");
 }
 ?>
