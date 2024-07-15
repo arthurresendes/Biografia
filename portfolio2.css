@@ -310,6 +310,23 @@ section.portfolio{
     opacity: 1;
 }
 
+section.portfolio a {
+    text-decoration: none;
+    color: white;
+}
+
+#red:hover{
+    text-decoration: underline;
+    color: rgb(128, 0, 0);
+    transition-duration: .5s;
+}
+
+#cinza:hover{
+    text-decoration: underline;
+    color: rgb(166, 160, 160);
+    transition-duration: .5s;
+}
+
 section.portfolio .flex{
     justify-content: space-around;
     margin-top: 40px;
