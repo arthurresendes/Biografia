@@ -213,9 +213,7 @@ footer p a {
     text-decoration: none;
 }
 
-footer p a:hover {
+footer a:hover{
     text-decoration: underline;
-    color: blue;
-    transition: .2s;
-    font-size: 18px;
 }
+

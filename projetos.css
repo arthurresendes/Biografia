@@ -115,8 +115,6 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(206, 27, 191);
     transition: .5s;
-    font-size: 18px;
     text-decoration: underline;
 }
