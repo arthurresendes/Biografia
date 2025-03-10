@@ -8,6 +8,11 @@ font-family: 'Poppins',sans-serif;}
 body{background-color: black;
 height: 100vh;}
 
+.red{
+    color: rgba(248, 76, 76, 0.685);
+    font-weight: bold;
+}
+
 .interface{
     max-width: 1280px;
     margin: 0 auto;
@@ -79,7 +84,7 @@ header nav.menu-desktop ul li{
     padding: 0 40px;
 }
 
-/*Estilo menu*/
+/*Estilo menu*/ 
 
 .menu-mobile.abrir-menu{
     width: 70%;
@@ -180,7 +185,7 @@ section.topo-do-site .flex{
 .topo-do-site .img-topo-site img{position: relative;
     width: 200px;
     height: 200px;
-    border-radius: 40%;
+    border-radius: 18% 15%;
     animation: flutuar 2s ease-in-out infinite alternate;
 
 }
@@ -214,18 +219,29 @@ gap: 60px;
 .especialidades .especialidades-box i{
     color: yellow;
     font-size: 58px;
+    display: flex;
+    justify-content: center; 
     align-items: center;
+}
+
+.especialidades .especialidades-box a{
+    color: white;
+}
+
+.especialidades .especialidades-box a:hover{
+    color: blue;
+    transition: .3s;
 }
 
 .especialidades .especialidades-box h3{
   font-size: 28px;
   margin: 15px 0;
- 
+  text-align: center;
 }
 
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.527);
+    box-shadow: 0 0 8px rgba(86, 86, 86, 0.66);
 }
 
 .especialidades .especialidades-box p{
@@ -242,7 +258,7 @@ section.sobre .flex{
 }
 
 .img-sobre img{
-    border-radius: 90%;
+    border-radius: 80%;
     width: 300px;
     height: 300px;
 }
