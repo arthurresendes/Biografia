@@ -15,8 +15,7 @@ if(mail($para,$assunto,$corpo,$cabeca)){
     echo("E-mail enviado com sucesso!");
 }
 else{
-    
+    echo("E-mail não enviado!");
 }
- 
 
 ?>
