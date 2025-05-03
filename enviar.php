@@ -1,21 +1,33 @@
 <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Captura os dados do formulário
+    $nome = htmlspecialchars($_POST["nome"]);
+    $email = htmlspecialchars($_POST["email"]);
+    $telefone = htmlspecialchars($_POST["telefone"]);
+    $mensagem = htmlspecialchars($_POST["msg"]);
 
-$nome = addslashes($_POST('nome'));
-$email = addslashes($_POST('email'));
-$telefone = addslashes($_POST('telefone'));
+    // Endereço de e-mail para onde as mensagens serão enviadas
+    $para = "arthur.resende.gomes02@gmail.com"; // Substitua pelo seu e-mail
+    $assunto = "Novo contato de $nome";
 
-$para = "arthur.resende.gomes02@gmail.com";
-$assunto = "Coleta de dados - Portfolio";
+    // Conteúdo do e-mail
+    $conteudo = "Você recebeu uma nova mensagem do formulário:\n\n";
+    $conteudo .= "Nome: $nome\n";
+    $conteudo .= "E-mail: $email\n";
+    $conteudo .= "Telefone: $telefone\n\n";
+    $conteudo .= "Mensagem:\n$mensagem\n";
 
-$corpo = "Nome: ".$nome."\n"."E-mail :".$email."\n"."Telefone: ".$telefone;
+    // Cabeçalhos
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
 
-$cabeca = "From: arthur.resende.gomes01@gmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
-
-if(mail($para,$assunto,$corpo,$cabeca)){
-    echo("E-mail enviado com sucesso!");
+    // Envia o e-mail
+    if (mail($para, $assunto, $conteudo, $headers)) {
+        echo "Mensagem enviada com sucesso!";
+    } else {
+        echo "Erro ao enviar a mensagem. Por favor, tente novamente.";
+    }
+} else {
+    echo "Método de requisição inválido.";
 }
-else{
-    echo("E-mail não enviado!");
-}
-
 ?>
