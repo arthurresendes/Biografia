@@ -70,7 +70,7 @@ header a{
 }
 
 header nav.menu-desktop a:hover{
-    color: white;
+    color: rgb(164, 8, 8);
     transform: scale(1.05);
     
 }
@@ -124,7 +124,7 @@ header nav.menu-desktop ul li{
 
 .menu-mobile nav ul li a:hover{
     background-color: yellow;
-    color: black;
+    color: rgb(82, 7, 7);
 
 }
 
