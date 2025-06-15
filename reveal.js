@@ -1,4 +1,4 @@
-window.revelar = ScrollReveal({reset:true})
+window.revelar = ScrollReveal({reset:false})
 
 revelar.reveal('.efeito-txt-topo' ,{
 duration: 1500,
@@ -13,13 +13,20 @@ revelar.reveal('.efeito-img-topo' ,{
 
 revelar.reveal('.titulo' ,{
         duration: 1500,
-        distance: '90px'
+        distance: '90px',
+        delay: 100
         })
 
 revelar.reveal('.efeitos-especialidades1' ,{
             duration: 2000,
             distance: '90px',
             delay: 500
+            })
+
+revelar.reveal('.efeitop' ,{
+            duration: 2000,
+            distance: '90px',
+            delay: 200
             })
 
 revelar.reveal('.efeitos-especialidades2' ,{
