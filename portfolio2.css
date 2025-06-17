@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: black;
+    background: url(imagem/estrelas.avif) fixed;
     height: 100vh;
 }
 
@@ -100,7 +100,7 @@ header>.interface {
 }
 
 header a {
-    color: rgb(88, 88, 88);
+    color: rgb(207, 207, 207);
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -119,6 +119,10 @@ header nav ul {
 header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
+}
+
+.menu-desktop{
+    text-transform: uppercase;
 }
 
 /*Estilo menu*/
@@ -244,6 +248,8 @@ section.topo-do-site .flex {
 
 section.especialidades {
     padding: 40px 4%;
+    
+    
 }
 
 section.especialidades .flex {
