@@ -8,11 +8,12 @@
 }
 
 body {
-    background: url(imagem/estrelas.avif) fixed;
+    background-color: black;
     height: 100vh;
 }
 
 .red {
+    text-transform: uppercase;
     color: rgba(248, 76, 76, 0.685);
     font-weight: bold;
 }
@@ -100,8 +101,10 @@ header>.interface {
 }
 
 header a {
-    color: rgb(207, 207, 207);
+    color: rgb(158, 158, 158);
     text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.9px;
     display: inline-block;
     transition: .2s;
 }
@@ -109,7 +112,7 @@ header a {
 header nav.menu-desktop a:hover {
     color: rgb(164, 8, 8);
     transform: scale(1.05);
-
+    border-bottom: 1px solid rgb(249, 111, 111);
 }
 
 header nav ul {
@@ -119,10 +122,7 @@ header nav ul {
 header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
-}
-
-.menu-desktop{
-    text-transform: uppercase;
+    font-size: 18px;
 }
 
 /*Estilo menu*/
@@ -248,12 +248,11 @@ section.topo-do-site .flex {
 
 section.especialidades {
     padding: 40px 4%;
-    
-    
 }
 
-section.especialidades .flex {
-    gap: 60px;
+section.especialidades, 
+section.formulario{
+    background-image: linear-gradient(190deg, rgb(7, 7, 7),rgb(3, 3, 3));
 }
 
 .especialidades .especialidades-box {
@@ -277,7 +276,7 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box a:hover {
-    color: blue;
+    color: rgb(53, 167, 248);
     transition: .3s;
 }
 
